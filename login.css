@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    min-height: 115vh;
+    text-align: center;
+}
+
+.logo img{
+    margin: 10px auto;
+}
+
+.login-contain {
+    max-width: 350px;
+    margin: 10px auto;
+    border: 1px solid #dfdfdf;
+    padding: 20px 25px;
+    text-align: left;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+
+.login-contain h1{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.log-access {
+    margin-top: 20px;
+}
+
+.log-access p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+.log-access input {
+    width: 100%;
+    border: 1px solid #dadada;
+    padding: 5px 7px;
+    height: 35px;
+    border-radius: 5px;
+    outline: 1px solid #0066c0;
+    
+}
+
+.login-contain button {
+    width: 100%;
+    padding: 12px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ffd418;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+
+.login-contain button:hover {
+    background: green;
+    color: #fff;
+}
+
+.terms {
+    margin: 15px 0;
+}
+
+.terms p {
+    font-size: 12px;
+}
+
+.terms p span{
+    font-size: 12px;
+    color: #0066c0;
+}
+
+.loghelp {
+    font-size: 12px;
+    color: #0066c0;
+}
+
+.login-contain hr {
+    border: 0;
+    height: 1px;
+    background: #dadada;
+    margin-top: 25px;
+}
+
+.logbuy {
+    margin-top: 20px;
+}
+
+.logbuy h4 {
+    font-size: 13px;
+}
+
+.business {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #0066c0;
+}
+
+.newlog {
+    max-width: 350px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.newlog hr {
+    width: 120px;
+    height: 1px;
+    border: none;
+    background: #dadada;
+}
+
+.newlog p {
+    font-size: 13px;
+    color: #565656;
+}
+
+.create-btn {
+    width: 350px;
+    padding: 12px 10px;
+    background: #fff;
+    white-space: nowrap;
+    border-radius: 5px;
+    border: 1px solid #0066c0;
+    outline: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #f3f3f3;
+    padding: 5px;
+    width: 100%;
+    gap: 8px;
+}
+
+.log-links {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.log-links a {
+    color: #0066c0;
+    margin-inline: 0.5rem;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.log-foot p {
+    color: #565656;
+    font-size: 13px;
+}
